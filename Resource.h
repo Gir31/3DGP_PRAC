@@ -13,7 +13,7 @@
 #define IDI_SMALL				108
 #define IDC_MY3DGPPRAC			109
 #define IDC_MYICON				2
-#ifndef IDC_STATIC
+#ifndef IDC_STATIC 
 #define IDC_STATIC				-1
 #endif
 // 다음은 새 개체에 사용할 기본값입니다.
