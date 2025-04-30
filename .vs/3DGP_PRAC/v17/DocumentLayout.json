@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\82102\\source\\repos\\3DGP_PRAC\\3DGP_PRAC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C30E8880-5671-4DA9-BD47-E669CEFE2331}|3DGP_PRAC.vcxproj|C:\\Users\\82102\\source\\repos\\3DGP_PRAC\\3DGP_PRAC\\CGameFramework.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C30E8880-5671-4DA9-BD47-E669CEFE2331}|3DGP_PRAC.vcxproj|solutionrelative:CGameFramework.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C30E8880-5671-4DA9-BD47-E669CEFE2331}|3DGP_PRAC.vcxproj|C:\\Users\\82102\\source\\repos\\3DGP_PRAC\\3DGP_PRAC\\stdafx.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C30E8880-5671-4DA9-BD47-E669CEFE2331}|3DGP_PRAC.vcxproj|solutionrelative:stdafx.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C30E8880-5671-4DA9-BD47-E669CEFE2331}|3DGP_PRAC.vcxproj|C:\\Users\\82102\\source\\repos\\3DGP_PRAC\\3DGP_PRAC\\CGameFramework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C30E8880-5671-4DA9-BD47-E669CEFE2331}|3DGP_PRAC.vcxproj|solutionrelative:CGameFramework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C30E8880-5671-4DA9-BD47-E669CEFE2331}|3DGP_PRAC.vcxproj|C:\\Users\\82102\\source\\repos\\3DGP_PRAC\\3DGP_PRAC\\CGameFramework.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C30E8880-5671-4DA9-BD47-E669CEFE2331}|3DGP_PRAC.vcxproj|solutionrelative:CGameFramework.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C30E8880-5671-4DA9-BD47-E669CEFE2331}|3DGP_PRAC.vcxproj|C:\\Users\\82102\\source\\repos\\3DGP_PRAC\\3DGP_PRAC\\Timer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C30E8880-5671-4DA9-BD47-E669CEFE2331}|3DGP_PRAC.vcxproj|solutionrelative:Timer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C30E8880-5671-4DA9-BD47-E669CEFE2331}|3DGP_PRAC.vcxproj|C:\\Users\\82102\\source\\repos\\3DGP_PRAC\\3DGP_PRAC\\3DGP_PRAC.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C30E8880-5671-4DA9-BD47-E669CEFE2331}|3DGP_PRAC.vcxproj|solutionrelative:3DGP_PRAC.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C30E8880-5671-4DA9-BD47-E669CEFE2331}|3DGP_PRAC.vcxproj|C:\\Users\\82102\\source\\repos\\3DGP_PRAC\\3DGP_PRAC\\3DGP_PRAC.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C30E8880-5671-4DA9-BD47-E669CEFE2331}|3DGP_PRAC.vcxproj|solutionrelative:3DGP_PRAC.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C30E8880-5671-4DA9-BD47-E669CEFE2331}|3DGP_PRAC.vcxproj|C:\\Users\\82102\\source\\repos\\3DGP_PRAC\\3DGP_PRAC\\CGameFramework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C30E8880-5671-4DA9-BD47-E669CEFE2331}|3DGP_PRAC.vcxproj|solutionrelative:CGameFramework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C30E8880-5671-4DA9-BD47-E669CEFE2331}|3DGP_PRAC.vcxproj|C:\\Users\\82102\\source\\repos\\3DGP_PRAC\\3DGP_PRAC\\Resource.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C30E8880-5671-4DA9-BD47-E669CEFE2331}|3DGP_PRAC.vcxproj|solutionrelative:Resource.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C30E8880-5671-4DA9-BD47-E669CEFE2331}|3DGP_PRAC.vcxproj|C:\\Users\\82102\\source\\repos\\3DGP_PRAC\\3DGP_PRAC\\Timer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C30E8880-5671-4DA9-BD47-E669CEFE2331}|3DGP_PRAC.vcxproj|solutionrelative:Timer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C30E8880-5671-4DA9-BD47-E669CEFE2331}|3DGP_PRAC.vcxproj|C:\\Users\\82102\\source\\repos\\3DGP_PRAC\\3DGP_PRAC\\3DGP_PRAC.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C30E8880-5671-4DA9-BD47-E669CEFE2331}|3DGP_PRAC.vcxproj|solutionrelative:3DGP_PRAC.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,32 +42,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CGameFramework.cpp",
               "DocumentMoniker": "C:\\Users\\82102\\source\\repos\\3DGP_PRAC\\3DGP_PRAC\\CGameFramework.cpp",
               "RelativeDocumentMoniker": "CGameFramework.cpp",
               "ToolTip": "C:\\Users\\82102\\source\\repos\\3DGP_PRAC\\3DGP_PRAC\\CGameFramework.cpp",
               "RelativeToolTip": "CGameFramework.cpp",
-              "ViewState": "AQIAALkBAAAAAAAAAAAqwNIBAAA0AAAA",
+              "ViewState": "AQIAAJUBAAAAAAAAAAAAAP4BAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-29T03:57:18.822Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "CGameFramework.h",
+              "DocumentMoniker": "C:\\Users\\82102\\source\\repos\\3DGP_PRAC\\3DGP_PRAC\\CGameFramework.h",
+              "RelativeDocumentMoniker": "CGameFramework.h",
+              "ToolTip": "C:\\Users\\82102\\source\\repos\\3DGP_PRAC\\3DGP_PRAC\\CGameFramework.h",
+              "RelativeToolTip": "CGameFramework.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-29T03:40:25.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "stdafx.h",
               "DocumentMoniker": "C:\\Users\\82102\\source\\repos\\3DGP_PRAC\\3DGP_PRAC\\stdafx.h",
               "RelativeDocumentMoniker": "stdafx.h",
               "ToolTip": "C:\\Users\\82102\\source\\repos\\3DGP_PRAC\\3DGP_PRAC\\stdafx.h",
               "RelativeToolTip": "stdafx.h",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAAA0AAAASAAAA",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAACwAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-04-29T02:56:18.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Timer.cpp",
+              "DocumentMoniker": "C:\\Users\\82102\\source\\repos\\3DGP_PRAC\\3DGP_PRAC\\Timer.cpp",
+              "RelativeDocumentMoniker": "Timer.cpp",
+              "ToolTip": "C:\\Users\\82102\\source\\repos\\3DGP_PRAC\\3DGP_PRAC\\Timer.cpp",
+              "RelativeToolTip": "Timer.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-29T04:17:07.984Z",
               "EditorCaption": ""
             },
             {
@@ -77,32 +111,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CGameFramework.h",
-              "DocumentMoniker": "C:\\Users\\82102\\source\\repos\\3DGP_PRAC\\3DGP_PRAC\\CGameFramework.h",
-              "RelativeDocumentMoniker": "CGameFramework.h",
-              "ToolTip": "C:\\Users\\82102\\source\\repos\\3DGP_PRAC\\3DGP_PRAC\\CGameFramework.h",
-              "RelativeToolTip": "CGameFramework.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-29T03:40:25.637Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "3DGP_PRAC.cpp",
-              "DocumentMoniker": "C:\\Users\\82102\\source\\repos\\3DGP_PRAC\\3DGP_PRAC\\3DGP_PRAC.cpp",
-              "RelativeDocumentMoniker": "3DGP_PRAC.cpp",
-              "ToolTip": "C:\\Users\\82102\\source\\repos\\3DGP_PRAC\\3DGP_PRAC\\3DGP_PRAC.cpp",
-              "RelativeToolTip": "3DGP_PRAC.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-29T02:52:32.886Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Resource.h",
               "DocumentMoniker": "C:\\Users\\82102\\source\\repos\\3DGP_PRAC\\3DGP_PRAC\\Resource.h",
@@ -113,6 +121,31 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-04-29T02:56:45.826Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Timer.h",
+              "DocumentMoniker": "C:\\Users\\82102\\source\\repos\\3DGP_PRAC\\3DGP_PRAC\\Timer.h",
+              "RelativeDocumentMoniker": "Timer.h",
+              "ToolTip": "C:\\Users\\82102\\source\\repos\\3DGP_PRAC\\3DGP_PRAC\\Timer.h",
+              "RelativeToolTip": "Timer.h",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB0AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-29T04:09:37.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "3DGP_PRAC.cpp",
+              "DocumentMoniker": "C:\\Users\\82102\\source\\repos\\3DGP_PRAC\\3DGP_PRAC\\3DGP_PRAC.cpp",
+              "RelativeDocumentMoniker": "3DGP_PRAC.cpp",
+              "ToolTip": "C:\\Users\\82102\\source\\repos\\3DGP_PRAC\\3DGP_PRAC\\3DGP_PRAC.cpp",
+              "RelativeToolTip": "3DGP_PRAC.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-29T02:52:32.886Z"
             }
           ]
         }

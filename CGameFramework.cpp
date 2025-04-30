@@ -4,7 +4,7 @@
 CGameFramework::CGameFramework()
 {
 	m_pdxgiFactory = NULL;
-	m_pdxgiSwapChain = NULL;
+	m_pDXGISwapChain = NULL;
 	m_pd3dDevice = NULL;
 
 	m_pd3dCommandAllocator = NULL;
@@ -28,6 +28,9 @@ CGameFramework::CGameFramework()
 
 	m_nWndClientWidth = FRAME_BUFFER_WIDTH;
 	m_nWndClientHeight = FRAME_BUFFER_HEIGHT;
+
+
+	_tcscpy_s(m_pszFrameRate, _T("LapProject ("));
 }
 
 CGameFramework::~CGameFramework()
@@ -76,8 +79,8 @@ void CGameFramework::OnDestroy()
 	
 	if (m_pd3dFence) m_pd3dFence->Release();
 	
-	m_pdxgiSwapChain->SetFullscreenState(FALSE, NULL);
-	if (m_pdxgiSwapChain) m_pdxgiSwapChain->Release();
+	m_pDXGISwapChain->SetFullscreenState(FALSE, NULL);
+	if (m_pDXGISwapChain)  m_pDXGISwapChain->Release();
 	if (m_pd3dDevice) m_pd3dDevice->Release();
 	if (m_pdxgiFactory) m_pdxgiFactory->Release();
 
@@ -122,12 +125,12 @@ void CGameFramework::CreateSwapChain()
 	
 	m_pdxgiFactory->CreateSwapChainForHwnd(m_pd3dCommandQueue, m_hWnd,
 		&dxgiSwapChainDesc, &dxgiSwapChainFullScreenDesc, NULL, (IDXGISwapChain1
-			**)&m_pdxgiSwapChain);
+			**)&m_pDXGISwapChain);
 	//스왑체인을 생성한다. 
 	
 	m_pdxgiFactory->MakeWindowAssociation(m_hWnd, DXGI_MWA_NO_ALT_ENTER);
 	//“Alt+Enter” 키의 동작을 비활성화한다. 
-	m_nSwapChainBufferIndex = m_pdxgiSwapChain->GetCurrentBackBufferIndex();
+	m_nSwapChainBufferIndex = m_pDXGISwapChain->GetCurrentBackBufferIndex();
 	//스왑체인의 현재 후면버퍼 인덱스를 저장한다. 
 }
 
@@ -260,7 +263,7 @@ void CGameFramework::CreateRenderTargetViews()
 		m_pd3dRtvDescriptorHeap->GetCPUDescriptorHandleForHeapStart();
 	for (UINT i = 0; i < m_nSwapChainBuffers; i++)
 	{
-		m_pdxgiSwapChain->GetBuffer(i, __uuidof(ID3D12Resource), (void
+		m_pDXGISwapChain->GetBuffer(i, __uuidof(ID3D12Resource), (void
 			**)&m_ppd3dRenderTargetBuffers[i]);
 		m_pd3dDevice->CreateRenderTargetView(m_ppd3dRenderTargetBuffers[i], NULL,
 			d3dRtvCPUDescriptorHandle);
@@ -409,6 +412,9 @@ void CGameFramework::WaitForGpuComplete()
 
 void CGameFramework::FrameAdvance()
 {
+	//타이머의 시간이 갱신되도록 하고 프레임 레이트를 계산한다. 
+	m_GameTimer.Tick(0.0f); 
+
 	ProcessInput();
 	
 	AnimateObjects();
@@ -460,6 +466,7 @@ void CGameFramework::FrameAdvance()
 	//렌더링 코드는 여기에 추가될 것이다.
 	//==============================================================================
 	//
+	
 	//
 	//==============================================================================
 
@@ -485,9 +492,20 @@ void CGameFramework::FrameAdvance()
 	dxgiPresentParameters.pDirtyRects = NULL;
 	dxgiPresentParameters.pScrollRect = NULL;
 	dxgiPresentParameters.pScrollOffset = NULL;
-	m_pdxgiSwapChain->Present1(1, 0, &dxgiPresentParameters);
+	m_pDXGISwapChain->Present1(1, 0, &dxgiPresentParameters);
 	/*스왑체인을 프리젠트한다. 프리젠트를 하면 현재 렌더 타겟(후면버퍼)의 내용이 전면버퍼로 옮겨지고 렌더 타겟 인
    덱스가 바뀔 것이다.*/
 	
-	m_nSwapChainBufferIndex = m_pdxgiSwapChain->GetCurrentBackBufferIndex();
+	m_nSwapChainBufferIndex = m_pDXGISwapChain->GetCurrentBackBufferIndex();
+
+	m_pDXGISwapChain->Present(0, 0);
+	/*현재의 프레임 레이트를 문자열로 가져와서 주 윈도우의 타이틀로 출력한다. m_pszBuffer 문자열이
+    "LapProject ("으로 초기화되었으므로 (m_pszFrameRate+12)에서부터 프레임 레이트를 문자열로 출력
+    하여 “ FPS)” 문자열과 합친다.
+    ::_itow_s(m_nCurrentFrameRate, (m_pszFrameRate+12), 37, 10);
+	::wcscat_s((m_pszFrameRate+12), 37, _T(" FPS)"));
+	*/
+
+	m_GameTimer.GetFrameRate(m_pszFrameRate + 12, 37);
+	::SetWindowText(m_hWnd, m_pszFrameRate);
 }
